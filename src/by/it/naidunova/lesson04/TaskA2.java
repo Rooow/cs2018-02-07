@@ -41,7 +41,7 @@ public class TaskA2 {
                 System.out.println("среда");
                 break;
             case 4:
-                System.out.println("черверг");
+                System.out.println("четверг");
                 break;
             case 5:
                 System.out.println("пятница");

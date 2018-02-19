@@ -23,23 +23,31 @@ package by.it.naidunova.lesson04;
 2. Программа должна выводить текст на экран.
 3. Если введенный год является високосным, необходимо вывести текст: "количество дней в году: 366"
 4. Если введенный год не является високосным, необходимо вывести текст: "количество дней в году: 365"
-
-*/
-
-import java.util.*;
 /*
-public class TaskB1 {
-    public static void main(String[] args) throws Exception {
-         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String sYear = reader.readLine();
-        int year = Integer.parseInt(sYear);
-        if (year%4!=0)|| (year%400!=0)) days = 365;
-            System.out.println("количество дней в году: " + 365);
+ ff
+
+ */
+
+
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+public class TaskB1
+{
+    public static void main(String[] args) throws Exception
+    {
+        BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
+        java.lang.String sYear=reader.readLine();
+        int Year=Integer.parseInt(sYear);
+
+        if ((Year%4==0) && (Year%100!=0))
+            System.out.println("количество дней в году: 366");
+        else if ((Year%4==0) && (Year%400==0))
+            System.out.println("количество дней в году: 366");
         else
-            System.out.println("количество дней в году: " + 366);
+        System.out.println("количество дней в году: 365");
+
+
 
     }
 }
-/*
-
- */
