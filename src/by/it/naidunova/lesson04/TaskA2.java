@@ -41,7 +41,11 @@ public class TaskA2 {
                 System.out.println("среда");
                 break;
             case 4:
+<<<<<<< HEAD
                 System.out.println("четверг");
+=======
+                System.out.println("черверг");
+>>>>>>> origin/master
                 break;
             case 5:
                 System.out.println("пятница");
